@@ -1,14 +1,15 @@
-name: Build example
-on:
-  push:
-  pull_request:
-  workflow_dispatch:
-    inputs:
-      release:
+name: Build
+on.
+  Build on.
+    branches: [ main ]
+  workflow_dispatch.
+    workflow_dispatch: workflow_dispatch: workflow_dispatch.
+      release.
         description: "Release"
         required: true
         default: false
         type: boolean
+
 
 jobs:
   build:
